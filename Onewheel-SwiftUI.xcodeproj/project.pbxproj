@@ -7,32 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400D112D29495BAB00B620AF /* AnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400D112C29495BAB00B620AF /* AnalyticsView.swift */; };
+		400D1130294A637800B620AF /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400D112F294A637800B620AF /* Logger.swift */; };
+		400D1133294A6C5400B620AF /* SOCChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400D1132294A6C5400B620AF /* SOCChart.swift */; };
+		400D1135294A709400B620AF /* EnergyChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400D1134294A709400B620AF /* EnergyChart.swift */; };
+		400D1137294A725400B620AF /* TempsChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400D1136294A725400B620AF /* TempsChart.swift */; };
+		40118A6D293BF465009E0C70 /* Speedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40118A6C293BF465009E0C70 /* Speedometer.swift */; };
+		40118A70293C0002009E0C70 /* PowerMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40118A6F293C0002009E0C70 /* PowerMeter.swift */; };
+		40118A72293C0F13009E0C70 /* BatteryBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40118A71293C0F13009E0C70 /* BatteryBar.swift */; };
+		402F2AD5293E7E87006AFCA8 /* Temps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F2AD4293E7E87006AFCA8 /* Temps.swift */; };
+		402F2ADF293FC640006AFCA8 /* Onewheel_SwiftUI_MenubarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F2ADE293FC640006AFCA8 /* Onewheel_SwiftUI_MenubarApp.swift */; };
+		402F2AE1293FC640006AFCA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F2AE0293FC640006AFCA8 /* ContentView.swift */; };
+		402F2AE3293FC641006AFCA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402F2AE2293FC641006AFCA8 /* Assets.xcassets */; };
+		402F2AE6293FC641006AFCA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402F2AE5293FC641006AFCA8 /* Preview Assets.xcassets */; };
+		402F2AEC293FC71C006AFCA8 /* CRC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C30AC8293AEF3200C120F8 /* CRC.swift */; };
+		402F2AED293FC71C006AFCA8 /* Packages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FA322293A667100D38F0B /* Packages.swift */; };
+		402F2AEE293FC71C006AFCA8 /* VESC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FA329293A68A100D38F0B /* VESC.swift */; };
+		402F2AEF293FC71C006AFCA8 /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C30ACA293AF92600C120F8 /* Buffer.swift */; };
+		402F2AF0293FC71C006AFCA8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E6B2D828BEDBBA00F3F3E2 /* Utils.swift */; };
+		402F2AF1293FC71C006AFCA8 /* Datatypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FA325293A674C00D38F0B /* Datatypes.swift */; };
+		402F2AF3294015D3006AFCA8 /* Battery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F2AF2294015D3006AFCA8 /* Battery.swift */; };
+		402F2AF4294015D3006AFCA8 /* Battery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F2AF2294015D3006AFCA8 /* Battery.swift */; };
+		402F2AF529401E1F006AFCA8 /* SelectDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FA32D293A6FF600D38F0B /* SelectDeviceView.swift */; };
+		40621E5A2942C7A600E3995D /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40621E592942C7A600E3995D /* Distance.swift */; };
+		40621E5C2943AC7000E3995D /* DutyMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40621E5B2943AC6F00E3995D /* DutyMeter.swift */; };
+		406DCB92295804D000D99416 /* DataEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406DCB91295804D000D99416 /* DataEntryView.swift */; };
+		408FA323293A667100D38F0B /* Packages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FA322293A667100D38F0B /* Packages.swift */; };
+		408FA326293A674C00D38F0B /* Datatypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FA325293A674C00D38F0B /* Datatypes.swift */; };
+		408FA32A293A68A100D38F0B /* VESC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FA329293A68A100D38F0B /* VESC.swift */; };
+		408FA32E293A6FF600D38F0B /* SelectDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408FA32D293A6FF600D38F0B /* SelectDeviceView.swift */; };
+		40C30AC9293AEF3200C120F8 /* CRC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C30AC8293AEF3200C120F8 /* CRC.swift */; };
+		40C30ACB293AF92600C120F8 /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C30ACA293AF92600C120F8 /* Buffer.swift */; };
+		40C30ACD293B165300C120F8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C30ACC293B165300C120F8 /* SettingsView.swift */; };
 		40E6B2C628BECCB600F3F3E2 /* Onewheel_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E6B2B628BECCB500F3F3E2 /* Onewheel_SwiftUIApp.swift */; };
-		40E6B2C728BECCB600F3F3E2 /* Onewheel_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E6B2B628BECCB500F3F3E2 /* Onewheel_SwiftUIApp.swift */; };
 		40E6B2C828BECCB600F3F3E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E6B2B728BECCB500F3F3E2 /* ContentView.swift */; };
-		40E6B2C928BECCB600F3F3E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E6B2B728BECCB500F3F3E2 /* ContentView.swift */; };
 		40E6B2CA28BECCB600F3F3E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E6B2B828BECCB600F3F3E2 /* Assets.xcassets */; };
-		40E6B2CB28BECCB600F3F3E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E6B2B828BECCB600F3F3E2 /* Assets.xcassets */; };
+		40E6B2D928BEDBBA00F3F3E2 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E6B2D828BEDBBA00F3F3E2 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		400D112C29495BAB00B620AF /* AnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsView.swift; sourceTree = "<group>"; };
+		400D112E294A545400B620AF /* Onewheel-SwiftUI--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Onewheel-SwiftUI--iOS--Info.plist"; sourceTree = "<group>"; };
+		400D112F294A637800B620AF /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		400D1132294A6C5400B620AF /* SOCChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOCChart.swift; sourceTree = "<group>"; };
+		400D1134294A709400B620AF /* EnergyChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnergyChart.swift; sourceTree = "<group>"; };
+		400D1136294A725400B620AF /* TempsChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempsChart.swift; sourceTree = "<group>"; };
+		40118A6C293BF465009E0C70 /* Speedometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speedometer.swift; sourceTree = "<group>"; };
+		40118A6F293C0002009E0C70 /* PowerMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerMeter.swift; sourceTree = "<group>"; };
+		40118A71293C0F13009E0C70 /* BatteryBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryBar.swift; sourceTree = "<group>"; };
+		402F2AD4293E7E87006AFCA8 /* Temps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temps.swift; sourceTree = "<group>"; };
+		402F2ADC293FC640006AFCA8 /* Onewheel-SwiftUI-Menubar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Onewheel-SwiftUI-Menubar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		402F2ADE293FC640006AFCA8 /* Onewheel_SwiftUI_MenubarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onewheel_SwiftUI_MenubarApp.swift; sourceTree = "<group>"; };
+		402F2AE0293FC640006AFCA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		402F2AE2293FC641006AFCA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		402F2AE5293FC641006AFCA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		402F2AE7293FC641006AFCA8 /* Onewheel_SwiftUI_Menubar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Onewheel_SwiftUI_Menubar.entitlements; sourceTree = "<group>"; };
+		402F2AF2294015D3006AFCA8 /* Battery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battery.swift; sourceTree = "<group>"; };
+		40621E592942C7A600E3995D /* Distance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
+		40621E5B2943AC6F00E3995D /* DutyMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutyMeter.swift; sourceTree = "<group>"; };
+		406DCB91295804D000D99416 /* DataEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataEntryView.swift; sourceTree = "<group>"; };
+		408FA322293A667100D38F0B /* Packages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Packages.swift; sourceTree = "<group>"; };
+		408FA325293A674C00D38F0B /* Datatypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datatypes.swift; sourceTree = "<group>"; };
+		408FA329293A68A100D38F0B /* VESC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VESC.swift; sourceTree = "<group>"; };
+		408FA32D293A6FF600D38F0B /* SelectDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDeviceView.swift; sourceTree = "<group>"; };
+		40C30AC8293AEF3200C120F8 /* CRC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRC.swift; sourceTree = "<group>"; };
+		40C30ACA293AF92600C120F8 /* Buffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buffer.swift; sourceTree = "<group>"; };
+		40C30ACC293B165300C120F8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		40E6B2B628BECCB500F3F3E2 /* Onewheel_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onewheel_SwiftUIApp.swift; sourceTree = "<group>"; };
 		40E6B2B728BECCB500F3F3E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		40E6B2B828BECCB600F3F3E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40E6B2BD28BECCB600F3F3E2 /* Onewheel-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Onewheel-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		40E6B2C328BECCB600F3F3E2 /* Onewheel-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Onewheel-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		40E6B2C528BECCB600F3F3E2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		40E6B2D828BEDBBA00F3F3E2 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		40E6B2BA28BECCB600F3F3E2 /* Frameworks */ = {
+		402F2AD9293FC640006AFCA8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		40E6B2C028BECCB600F3F3E2 /* Frameworks */ = {
+		40E6B2BA28BECCB600F3F3E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,11 +98,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		400D1131294A6C4800B620AF /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				400D1132294A6C5400B620AF /* SOCChart.swift */,
+				400D1134294A709400B620AF /* EnergyChart.swift */,
+				400D1136294A725400B620AF /* TempsChart.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		402F2ADD293FC640006AFCA8 /* Onewheel-SwiftUI-Menubar */ = {
+			isa = PBXGroup;
+			children = (
+				402F2ADE293FC640006AFCA8 /* Onewheel_SwiftUI_MenubarApp.swift */,
+				402F2AE0293FC640006AFCA8 /* ContentView.swift */,
+				402F2AE2293FC641006AFCA8 /* Assets.xcassets */,
+				402F2AE7293FC641006AFCA8 /* Onewheel_SwiftUI_Menubar.entitlements */,
+				402F2AE4293FC641006AFCA8 /* Preview Content */,
+			);
+			path = "Onewheel-SwiftUI-Menubar";
+			sourceTree = "<group>";
+		};
+		402F2AE4293FC641006AFCA8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				402F2AE5293FC641006AFCA8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		402F2AEB293FC665006AFCA8 /* Onewheel-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				40E6B2B628BECCB500F3F3E2 /* Onewheel_SwiftUIApp.swift */,
+				40E6B2B728BECCB500F3F3E2 /* ContentView.swift */,
+				408FA32C293A6FE500D38F0B /* Views */,
+			);
+			path = "Onewheel-SwiftUI";
+			sourceTree = "<group>";
+		};
+		402F2AF7294026C5006AFCA8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				408FA32D293A6FF600D38F0B /* SelectDeviceView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		408FA328293A687E00D38F0B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				408FA329293A68A100D38F0B /* VESC.swift */,
+				408FA322293A667100D38F0B /* Packages.swift */,
+				408FA325293A674C00D38F0B /* Datatypes.swift */,
+				40C30ACA293AF92600C120F8 /* Buffer.swift */,
+				40C30AC8293AEF3200C120F8 /* CRC.swift */,
+				40E6B2D828BEDBBA00F3F3E2 /* Utils.swift */,
+				402F2AF2294015D3006AFCA8 /* Battery.swift */,
+				400D112F294A637800B620AF /* Logger.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		408FA32C293A6FE500D38F0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40C30ACC293B165300C120F8 /* SettingsView.swift */,
+				406DCB91295804D000D99416 /* DataEntryView.swift */,
+				40118A6C293BF465009E0C70 /* Speedometer.swift */,
+				40621E5B2943AC6F00E3995D /* DutyMeter.swift */,
+				40118A6F293C0002009E0C70 /* PowerMeter.swift */,
+				40118A71293C0F13009E0C70 /* BatteryBar.swift */,
+				402F2AD4293E7E87006AFCA8 /* Temps.swift */,
+				40621E592942C7A600E3995D /* Distance.swift */,
+				400D112C29495BAB00B620AF /* AnalyticsView.swift */,
+				400D1131294A6C4800B620AF /* Charts */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		40E6B2B028BECCB500F3F3E2 = {
 			isa = PBXGroup;
 			children = (
+				400D112E294A545400B620AF /* Onewheel-SwiftUI--iOS--Info.plist */,
 				40E6B2B528BECCB500F3F3E2 /* Shared */,
-				40E6B2C428BECCB600F3F3E2 /* macOS */,
+				402F2AEB293FC665006AFCA8 /* Onewheel-SwiftUI */,
+				402F2ADD293FC640006AFCA8 /* Onewheel-SwiftUI-Menubar */,
 				40E6B2BE28BECCB600F3F3E2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,8 +192,8 @@
 		40E6B2B528BECCB500F3F3E2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				40E6B2B628BECCB500F3F3E2 /* Onewheel_SwiftUIApp.swift */,
-				40E6B2B728BECCB500F3F3E2 /* ContentView.swift */,
+				402F2AF7294026C5006AFCA8 /* Views */,
+				408FA328293A687E00D38F0B /* Models */,
 				40E6B2B828BECCB600F3F3E2 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -65,22 +203,31 @@
 			isa = PBXGroup;
 			children = (
 				40E6B2BD28BECCB600F3F3E2 /* Onewheel-SwiftUI.app */,
-				40E6B2C328BECCB600F3F3E2 /* Onewheel-SwiftUI.app */,
+				402F2ADC293FC640006AFCA8 /* Onewheel-SwiftUI-Menubar.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		40E6B2C428BECCB600F3F3E2 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				40E6B2C528BECCB600F3F3E2 /* macOS.entitlements */,
-			);
-			path = macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		402F2ADB293FC640006AFCA8 /* Onewheel-SwiftUI-Menubar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 402F2AE8293FC641006AFCA8 /* Build configuration list for PBXNativeTarget "Onewheel-SwiftUI-Menubar" */;
+			buildPhases = (
+				402F2AD8293FC640006AFCA8 /* Sources */,
+				402F2AD9293FC640006AFCA8 /* Frameworks */,
+				402F2ADA293FC640006AFCA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Onewheel-SwiftUI-Menubar";
+			productName = "Onewheel-SwiftUI-Menubar";
+			productReference = 402F2ADC293FC640006AFCA8 /* Onewheel-SwiftUI-Menubar.app */;
+			productType = "com.apple.product-type.application";
+		};
 		40E6B2BC28BECCB600F3F3E2 /* Onewheel-SwiftUI (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40E6B2CE28BECCB600F3F3E2 /* Build configuration list for PBXNativeTarget "Onewheel-SwiftUI (iOS)" */;
@@ -98,23 +245,6 @@
 			productReference = 40E6B2BD28BECCB600F3F3E2 /* Onewheel-SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		40E6B2C228BECCB600F3F3E2 /* Onewheel-SwiftUI (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 40E6B2D128BECCB600F3F3E2 /* Build configuration list for PBXNativeTarget "Onewheel-SwiftUI (macOS)" */;
-			buildPhases = (
-				40E6B2BF28BECCB600F3F3E2 /* Sources */,
-				40E6B2C028BECCB600F3F3E2 /* Frameworks */,
-				40E6B2C128BECCB600F3F3E2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Onewheel-SwiftUI (macOS)";
-			productName = "Onewheel-SwiftUI (macOS)";
-			productReference = 40E6B2C328BECCB600F3F3E2 /* Onewheel-SwiftUI.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -122,13 +252,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					40E6B2BC28BECCB600F3F3E2 = {
-						CreatedOnToolsVersion = 13.4.1;
+					402F2ADB293FC640006AFCA8 = {
+						CreatedOnToolsVersion = 14.1;
 					};
-					40E6B2C228BECCB600F3F3E2 = {
+					40E6B2BC28BECCB600F3F3E2 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
@@ -147,12 +277,21 @@
 			projectRoot = "";
 			targets = (
 				40E6B2BC28BECCB600F3F3E2 /* Onewheel-SwiftUI (iOS) */,
-				40E6B2C228BECCB600F3F3E2 /* Onewheel-SwiftUI (macOS) */,
+				402F2ADB293FC640006AFCA8 /* Onewheel-SwiftUI-Menubar */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		402F2ADA293FC640006AFCA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402F2AE6293FC641006AFCA8 /* Preview Assets.xcassets in Resources */,
+				402F2AE3293FC641006AFCA8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		40E6B2BB28BECCB600F3F3E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -161,38 +300,125 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		40E6B2C128BECCB600F3F3E2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				40E6B2CB28BECCB600F3F3E2 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		402F2AD8293FC640006AFCA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402F2AF4294015D3006AFCA8 /* Battery.swift in Sources */,
+				402F2AED293FC71C006AFCA8 /* Packages.swift in Sources */,
+				402F2AF1293FC71C006AFCA8 /* Datatypes.swift in Sources */,
+				402F2AE1293FC640006AFCA8 /* ContentView.swift in Sources */,
+				402F2AEE293FC71C006AFCA8 /* VESC.swift in Sources */,
+				402F2AF0293FC71C006AFCA8 /* Utils.swift in Sources */,
+				402F2AF529401E1F006AFCA8 /* SelectDeviceView.swift in Sources */,
+				402F2ADF293FC640006AFCA8 /* Onewheel_SwiftUI_MenubarApp.swift in Sources */,
+				402F2AEC293FC71C006AFCA8 /* CRC.swift in Sources */,
+				402F2AEF293FC71C006AFCA8 /* Buffer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		40E6B2B928BECCB600F3F3E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400D1130294A637800B620AF /* Logger.swift in Sources */,
+				40621E5A2942C7A600E3995D /* Distance.swift in Sources */,
 				40E6B2C828BECCB600F3F3E2 /* ContentView.swift in Sources */,
+				408FA326293A674C00D38F0B /* Datatypes.swift in Sources */,
+				400D1133294A6C5400B620AF /* SOCChart.swift in Sources */,
+				408FA323293A667100D38F0B /* Packages.swift in Sources */,
+				402F2AF3294015D3006AFCA8 /* Battery.swift in Sources */,
+				40118A70293C0002009E0C70 /* PowerMeter.swift in Sources */,
+				400D1137294A725400B620AF /* TempsChart.swift in Sources */,
+				40C30ACB293AF92600C120F8 /* Buffer.swift in Sources */,
+				402F2AD5293E7E87006AFCA8 /* Temps.swift in Sources */,
+				40621E5C2943AC7000E3995D /* DutyMeter.swift in Sources */,
+				400D112D29495BAB00B620AF /* AnalyticsView.swift in Sources */,
+				406DCB92295804D000D99416 /* DataEntryView.swift in Sources */,
+				408FA32A293A68A100D38F0B /* VESC.swift in Sources */,
+				408FA32E293A6FF600D38F0B /* SelectDeviceView.swift in Sources */,
+				40118A72293C0F13009E0C70 /* BatteryBar.swift in Sources */,
+				40C30AC9293AEF3200C120F8 /* CRC.swift in Sources */,
 				40E6B2C628BECCB600F3F3E2 /* Onewheel_SwiftUIApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		40E6B2BF28BECCB600F3F3E2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				40E6B2C928BECCB600F3F3E2 /* ContentView.swift in Sources */,
-				40E6B2C728BECCB600F3F3E2 /* Onewheel_SwiftUIApp.swift in Sources */,
+				40C30ACD293B165300C120F8 /* SettingsView.swift in Sources */,
+				400D1135294A709400B620AF /* EnergyChart.swift in Sources */,
+				40118A6D293BF465009E0C70 /* Speedometer.swift in Sources */,
+				40E6B2D928BEDBBA00F3F3E2 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		402F2AE9293FC641006AFCA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "Onewheel-SwiftUI-Menubar/Onewheel_SwiftUI_Menubar.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Onewheel-SwiftUI-Menubar/Preview Content\"";
+				DEVELOPMENT_TEAM = 84WPVNZ8GM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AdinAck.Onewheel-SwiftUI-Menubar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		402F2AEA293FC641006AFCA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "Onewheel-SwiftUI-Menubar/Onewheel_SwiftUI_Menubar.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Onewheel-SwiftUI-Menubar/Preview Content\"";
+				DEVELOPMENT_TEAM = 84WPVNZ8GM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AdinAck.Onewheel-SwiftUI-Menubar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		40E6B2CC28BECCB600F3F3E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -226,6 +452,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -284,6 +511,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -312,12 +540,16 @@
 				DEVELOPMENT_TEAM = 84WPVNZ8GM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Onewheel-SwiftUI--iOS--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Grant bluetooth access";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Can this app communicate with Bluetooth peripherals?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,12 +574,16 @@
 				DEVELOPMENT_TEAM = 84WPVNZ8GM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Onewheel-SwiftUI--iOS--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Grant bluetooth access";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Can this app communicate with Bluetooth peripherals?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,65 +599,18 @@
 			};
 			name = Release;
 		};
-		40E6B2D228BECCB600F3F3E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 84WPVNZ8GM;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "AdinAck.Onewheel-SwiftUI";
-				PRODUCT_NAME = "Onewheel-SwiftUI";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		40E6B2D328BECCB600F3F3E2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 84WPVNZ8GM;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "AdinAck.Onewheel-SwiftUI";
-				PRODUCT_NAME = "Onewheel-SwiftUI";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		402F2AE8293FC641006AFCA8 /* Build configuration list for PBXNativeTarget "Onewheel-SwiftUI-Menubar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402F2AE9293FC641006AFCA8 /* Debug */,
+				402F2AEA293FC641006AFCA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		40E6B2B428BECCB500F3F3E2 /* Build configuration list for PBXProject "Onewheel-SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -436,15 +625,6 @@
 			buildConfigurations = (
 				40E6B2CF28BECCB600F3F3E2 /* Debug */,
 				40E6B2D028BECCB600F3F3E2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		40E6B2D128BECCB600F3F3E2 /* Build configuration list for PBXNativeTarget "Onewheel-SwiftUI (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				40E6B2D228BECCB600F3F3E2 /* Debug */,
-				40E6B2D328BECCB600F3F3E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
