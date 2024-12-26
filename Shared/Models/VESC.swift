@@ -210,6 +210,7 @@ class VESC: NSObject, ObservableObject, CBCentralManagerDelegate, CBPeripheralDe
     
     func packSendPayload(payload: [UInt8], lenPay: Int) {
         let crcPayload: UInt16 = CRC16.encode(buf: payload, len: lenPay)
+        
         var count: Int = 0
         var messageSend: [UInt8] = [UInt8].init(repeating: 0, count: 256)
         
@@ -239,6 +240,7 @@ class VESC: NSObject, ObservableObject, CBCentralManagerDelegate, CBPeripheralDe
         count += 3
         
         messageSend = Array(messageSend[0..<count])
+        
         let data = messageSend.withUnsafeBufferPointer({ num in
             Data(num)
         })
